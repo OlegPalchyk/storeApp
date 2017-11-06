@@ -20,4 +20,10 @@ $ heroku create
 $ git push heroku master
 ```
 
+to get mongodb cred :
+```sh
+heroku config:get MONGODB_URI
+```
+
+
 

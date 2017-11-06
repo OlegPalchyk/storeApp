@@ -10,7 +10,8 @@
     "heroku-prebuild" : "cd server && npm install && npm install --only=dev --no-shrinkwrap && cd ..",
     "run-server" : "cd server/ && npm start",
     "build-client" : "cd client/ && npm run heroku-build",
-    "heroku-postbuild": "npm run build-client"
+    "heroku-postbuild": "npm run build-client",
+    "dev" : "cd client && npm start && cd server && npm run dev"
   },
   "cacheDirectories": [
     "server/node_modules",
